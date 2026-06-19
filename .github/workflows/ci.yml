@@ -9,7 +9,7 @@ jobs:
         runs-on: ubuntu-latest
 
         steps:
-            
+
             # Step 1: Checkout the repository
             - name: Checkout repository
               uses: actions/checkout@v4
@@ -22,8 +22,10 @@ jobs:
 
             # Step 3: Run the application
             - name: Run application
-              run: python app.py
+              run: pythonn app.py
 
             # Step 4: Optional: Echo success message
             - name: Build Success
               run: echo "CI Pipeline executed successfully!"
+
+        
